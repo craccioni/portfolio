@@ -145,7 +145,7 @@
         </ul>
     </div>
     <!-- SideNav Trigger -->
-    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up btn-floating btn-large waves-effect waves-light teal lighten-2 right pulse"><i class="material-icons">menu</i></a>
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up btn-large waves-effect waves-light teal lighten-2 right btn-floating pulse "><i class="material-icons">menu</i></a>
 
     </header>
 
@@ -184,7 +184,7 @@
                     <ul class="perfil" >
                         <li><p>Camila Raccioni</p></li>
                         <li><p>Piracicaba, São Paulo, Brasil</p></li>
-                        <li><p>(18) 98120-6623</p></li>
+                        <li><p><a id="about_phone" href="https://api.whatsapp.com/send?phone=5518981206623">(18) 98120-6623</a></p></li>
                         <li><p>camila.raccioni@hotmail.com</p></li>
                     </ul>                    
                 </div> 
@@ -394,10 +394,10 @@
             <div class="row">
                 <ul class="justify">
                     <li><a title="GitHub" href="https://github.com/ishtarkali"><i class="fa fa-github"></i></a></li>
-                    <li><a title="LinkedIn" href="https://www.linkedin.com/in/camilaraccioni"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a title="Outlook" href="mailto:camila.raccioni@hotmail.com"><i class="fa fa-envelope"></i></a></li>
                     <li><a title="Facebook" href="https://www.facebook.com/raccioni?ref=br_rs"><i class="fa fa-facebook"></i></a></li>
-                    <li><a title="Google +" href="https://plus.google.com/u/0/+CamilaRaccioni?tab=wX"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a title="Outlook" href="mailto:camila.raccioni@hotmail.com"><i class="fa fa-envelope"></i></a></li>
+                    <li><a title="LinkedIn" href="https://www.linkedin.com/in/camilaraccioni"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a title="WhatsApp" href="https://api.whatsapp.com/send?phone=5518981206623"><i class="fa fa-whatsapp"></i></a></li>
                 </ul>
             </div>
         </div>
