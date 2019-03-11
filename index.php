@@ -51,6 +51,7 @@
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 
     <!-- Fontes
@@ -175,11 +176,11 @@
                 <div class="col l6 hide-on-small-only center-align pull-l1">
                     <img id="avatar" src="img/avatarS.png" alt="" class="circle responsive-img" alt="Meu Avatar">
                 </div>  
-                <div class="bout col s12 m6 l6 push-m2 pull-l1">
+                <div class="bout col s12 m6 l6 push-m2 pull-l1" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
                     <h5>SOBRE</h5>
                     <p>Estudante de Ciência da Computação apaixonada por design e desenvolvimento WEB, criando websites para todos os gostos e necessidades para facilitar seus negócios e projetos e torná-los atraentes para conquistar cada vez mais novos clientes.</p>
                 </div>
-                <div class="cont col s12 m4 l4 push-m2 pull-l1">
+                <div class="cont col s12 m4 l4 push-m2 pull-l1" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
                     <h5>CONTATO</h5>
                     <ul class="perfil" >
                         <li><p>Camila Raccioni</p></li>
@@ -190,7 +191,7 @@
                 </div> 
             </div>
         </div>
-        <div class="downloadbtn">
+        <div class="downloadbtn" data-aos="flip-right" data-aos-duration="900">
             <a id="downloadbtn" class="waves-effect waves-light btn-small teal lighten-2" href="pdf/Currículo - Camila Raccioni.pdf" download><i class="material-icons left">file_download</i>Download do currículo</a>
         </div>
     </div>
@@ -212,17 +213,17 @@
                 </div>
             </div>
             <div class="row center">
-                <div class="col s12 l4 pull-l1">
+                <div class="col s12 l4 pull-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h3>Faculdade Anhanguera de Piracicaba</h3>
                     <p class="info center">Ensino Superior <span>&bull;</span> <em class="date">07/2017 - 06/2021</em></p>
                     <p class="center gray">Ciência da Computação <span>&bull;</span> Piracicaba <span>&bull;</span> Noturno</p>         
                 </div>
-                <div class="col s12 l4">
+                <div class="col s12 l4" data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="300">
                     <h3>Universidade Estadual Paulista <br>"Júlio de Mesquita Filho"</h3>
                     <p class="info center">Ensino Superior <span>&bull;</span> <em class="date">02/ 2011 - 01/2015</em></p>
                     <p class="center gray">Ciências Biológicas <span>&bull;</span> Campus de Assis <span>&bull;</span> Integral</p>         
                 </div>
-                <div class="col s12 l4 push-l1">
+                <div class="col s12 l4 push-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="600">
                     <h3>Colégio São Vicente de Paulo</h3><br>
                     <p class="info center">Ensino Médio <span>&bull;</span> <em class="date">02/2008 - 12/2010</em></p>
                     <p class="center gray">São Pedro - SP</p>
@@ -241,17 +242,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s12 l4 pull-l1">
+                <div class="col s12 l4 pull-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h3>Desenvolvimento WEB</h3>
                     <p class="info">SEMAE Piracicaba: Serviço Municipal de Água e Esgoto <span>&bull;</span> <em class="date">05/2018</em></p><br>
                     <p>Atuação como estagiária, durante 8 meses na autarquia municipal SEMAE, realizando suporte técnico-informático aos usuários internos e construção do website para responder às necessidades da empresa utilizando o framework Materialize, as linguagens de programação PHP, Java e Javascript, a linguagem de marcação HTML e o Scriptcase, uma plataforma de desenvolvimento de aplicações PHP.</p>         
                 </div>        
-                <div class="col s12 l4">
+                <div class="col s12 l4" data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="300">
                     <h3>Estágio Professora</h3>
                     <p class="info">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) <span>&bull;</span> <em class="date">02/2012 - 05/2013</em></p><br>
                     <p>Atuação como estagiária durante 1 ano e 7 meses pelo Programa Institucional de Bolsas de Iniciação à Docência (PIBID) em salas de aula de ensino médio e fundamental na cidade de Assis - SP, auxiliando o professor efetivo na preparação e ministração de aulas de biologia e executando projetos educativos, como feiras de ciências e execução de atividades lúdicas para melhor fixação do conteúdo trabalhado em salas de aula.</p>
                 </div>
-                <div class="col s12 l4 push-l1">
+                <div class="col s12 l4 push-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="600">
                     <h3>Auxiliar Administrativo</h3>
                     <p class="info">Serralheria São Geraldo <span>&bull;</span> <em class="date">02/2008 - 12/2010</em></p><br>
                     <p>Atuação durante 2 anos como secretária na empresa Serralheria São Geraldo MC de São Pedro - SP, realizando atendimento presencial e telefônico ao cliente, organização de documentos pelo Office 2003 (utilizando Word e Excel), emissão de notas fiscais eletrônicas (Emissor de NFe), assistência administrativa, controle de fluxo de pessoas e organização do local de trabalho e controle de arquivos.</p>
@@ -269,14 +270,14 @@
                     <i class="medium material-icons">build</i>
                     <h5>COMPETÊNCIAS</h5>
                 </div>
-                <div class="col s12 m6 l6 push-l1">
+                <div class="col s12 m6 l6 push-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h3>Línguas Estrangeiras</h3>
                     <p>Inglês <span>&bull;</span> Avançado</p>
                     <p>Espanhol <span>&bull;</span> Intermediário</p>    
                     <p>Alemão <span>&bull;</span> Iniciante</p>
                 </div>
 
-                <div class="col s12 m6 l6 push-l1">
+                <div class="col s12 m6 l6 push-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h3>Bases de Dados</h3>
                     <p>SQL <span>&bull;</span> Básico</p>
                     <p>Oracle <span>&bull;</span> Básico</p>    
@@ -285,7 +286,7 @@
             </div>        
 
             <div class="row">
-                <div class="col s12 m6 l6 comp2 push-l1">
+                <div class="col s12 m6 l6 comp2 push-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h3>Sistemas Operacionais</h3>
                     <p>Windows 95 a 10 <span>&bull;</span> Avançado</p>
                     <p>Kali Linux <span>&bull;</span> Básico</p>
@@ -295,7 +296,7 @@
                     <p>Impressoras <span>&bull;</span> Intermediário</p>
                 </div>            
 
-                <div class="col s12 m6 l6 comp2 push-l1">
+                <div class="col s12 m6 l6 comp2 push-l1" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h3>Linguagens de Programação</h3>                
                     <p>C e C++ <span>&bull;</span> Avançado</p>
                     <p>HTML 5 e CSS <span>&bull;</span> Avançado</p>    
@@ -319,7 +320,7 @@
                         <i class="medium material-icons">note_add</i>
                         <h5>EXTRACURRICULARES</h5>
                     </div>
-                    <div class="col s12 push-l4 atividades">                          
+                    <div class="col s12 push-l4 atividades" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">                          
                         <p class="group">Discussões Literárias e Religiosas <span>&bull;</span><em class="date"> UNESP Assis</em></p>
                         <p class="group">Grupos de Estudo de Filosofia <span>&bull;</span><em class="date"> UNESP Assis</em></p>
                         <p class="group">Japonês Básico <span>&bull;</span><em class="date"> UNESP Assis</em></p>
@@ -347,7 +348,7 @@
     <div id="contato"> 
         <div class="container">
             <div class="row">
-                <div class="col s12 m12 l6 push-l3">
+                <div class="col s12 m12 l6 push-l3" data-aos="zoom-in" data-aos-once="true" data-aos-duration="900">
                     <div class="card-panel z-depth-3 formulario">
                         <div class="card-panel teal lighten-2 center cartao">
                             <i class="large material-icons simbolo hide-on-small-only">mail_outline</i>
@@ -440,8 +441,10 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/js/materialize.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.1/velocity.min.js'></script>
     <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/index.js"></script>
+    <script>AOS.init();</script>
 
 </body>
 
