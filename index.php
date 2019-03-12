@@ -1,6 +1,5 @@
 <?php
 
-
   $result="";
 
     if(isset($_POST['submit'])){
@@ -20,7 +19,7 @@
 
     $mail->isHTML(true);
     $mail->Subject='Mensagem do meu Website: '.$_POST['name'];
-    $mail->Body='<h1 style="color: #424242">Nome: '.$_POST['name'].'<br>Email: '.$_POST['email'].'<br>Telefone: '.$_POST['phone'].'<br>Messagem: '.$_POST['msg'].'</h1>';
+    $mail->Body='<h2 style="color: #424242">Nome: '.$_POST['name'].'<br>Email: '.$_POST['email'].'<br>Telefone: '.$_POST['phone'].'<br>Messagem: '.$_POST['msg'].'</h2>';
 
     if(!$mail->send()){
       $result="Ocorreu um erro, por favor tente novamente.";
