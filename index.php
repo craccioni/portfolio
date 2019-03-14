@@ -362,12 +362,12 @@
                             </div>                        
                         	<div class="input-field">
                                 <i class="material-icons prefix">mail</i>
-                                <input name="email" id="email" type="text" class="validate" required="" aria-required="true">
+                                <input name="email" id="email" type="email" class="validate" required="" aria-required="true">
                                 <label for="email">Email</label>
                         	</div>                      
                             <div class="input-field">
                               <i class="material-icons prefix">phone_iphone</i>
-                              <input name="phone" id="phone" type="text" class="validate">
+                              <input name="phone" id="phone" type="number" class="validate">
                               <label for="icon_telephone">Celular</label>
                             </div>
                             <div class="input-field">

@@ -49,34 +49,3 @@ document.addEventListener("DOMContentLoaded", function(){
     .fadeOut();
 });
 
-
-//FORM VALIDATION
- $("#formValidate").validate({
-    rules: {
-      name: {
-        equired: true,
-        minlength: 5
-        },
-      
-      email: {
-        required: true,
-        email:true
-      },
-    },
-        //For custom messages
-    messages: {
-        name:{
-          required: "Digite seu nome.",
-          minlength: "Digite no mínimo 5 caracteres."
-        },
-    },
-    errorElement : 'div',
-    errorPlacement: function(error, element) {
-      var placement = $(element).data('erro');
-      if (placement) {
-        $(placement).append(error)
-      } else {
-        error.insertAfter(element);
-      }
-    }
- });
