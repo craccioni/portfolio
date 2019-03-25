@@ -3,7 +3,7 @@
   $result="";
 
     if(isset($_POST['submit'])){
-        require 'php/PHPMailerAutoload.php';
+        require 'templates/php/PHPMailerAutoload.php';
     $mail = new PHPMailer;
 
     $mail->Host='smtp.gmail.com';
@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="templates/css/index.css">
 
     <!-- Fontes
     ================================================== -->
@@ -69,7 +69,7 @@
 
     <!-- Favicon
     ================================================== -->
-    <link rel="icon" href="img/coding.png" />
+    <link rel="icon" href="templates/img/coding.png" />
     <!-- https://favicon.io/favicon-converter/ -->
 
     <!-- JQuery 
@@ -109,9 +109,9 @@
             <li class="mobilecont">
                 <div class="user-view">
                     <div class="background">
-                        <img src="img/back5.png" alt="Plano de Fundo Cinza">
+                        <img src="templates/img/back5.png" alt="Plano de Fundo Cinza">
                     </div>
-                    <a id="miniavatar"><img class="circle responsive-img" src="img/avatar.png" alt="Meu Avatar"></a>
+                    <a id="miniavatar"><img class="circle responsive-img" src="templates/img/avatar.png" alt="Meu Avatar"></a>
                     <a id="sidenavname"><span class="white-text name">Camila Raccioni</span></a>
                     <a id="sidenavmail" href="mailto:camila.raccioni@hotmail.com?Subject=Website%20Message"><span class="white-text email">camila.raccioni@hotmail.com</span></a>
                 </div>
@@ -125,7 +125,7 @@
                 <div class="row">  
                     <div class="social-icons">
                         <div class="col s2">
-                            <a title="GitHub" href="https://github.com/ishtarkali"><i class="fa fa-github"></i></a></i>
+                            <a title="GitHub" href="https://github.com/craccioni"><i class="fa fa-github"></i></a></i>
                         </div>
                         <div class="col s2">
                             <a title="LinkedIn" href="https://www.linkedin.com/in/camilaraccioni"><i class="fa fa-linkedin"></i></a>
@@ -173,7 +173,7 @@
         <div class="container" >
             <div class="row">
                 <div class="col l6 hide-on-small-only center-align pull-l1">
-                    <img id="avatar" src="img/avatarS.png" alt="" class="circle responsive-img" alt="Meu Avatar">
+                    <img id="avatar" src="templates/img/avatarS.png" alt="" class="circle responsive-img" alt="Meu Avatar">
                 </div>  
                 <div class="bout col s12 m6 l6 push-m2 pull-l1" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
                     <h5>SOBRE</h5>
@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="downloadbtn" data-aos="flip-right" data-aos-duration="900">
-            <a id="downloadbtn" class="waves-effect waves-light btn-small teal lighten-2" href="pdf/Currículo - Camila Raccioni.pdf" download><i class="material-icons left">file_download</i>Download do currículo</a>
+            <a id="downloadbtn" class="waves-effect waves-light btn-small teal lighten-2" href="templates/pdf/Currículo - Camila Raccioni.pdf" download><i class="material-icons left">file_download</i>Download do currículo</a>
         </div>
     </div>
     
@@ -393,7 +393,7 @@
         <div class="container">
             <div class="row">
                 <ul class="justify">
-                    <li><a title="GitHub" href="https://github.com/ishtarkali"><i class="fa fa-github"></i></a></li>
+                    <li><a title="GitHub" href="https://github.com/craccioni"><i class="fa fa-github"></i></a></li>
                     <li><a title="Facebook" href="https://www.facebook.com/raccioni?ref=br_rs"><i class="fa fa-facebook"></i></a></li>
                     <li><a title="Outlook" href="mailto:camila.raccioni@hotmail.com"><i class="fa fa-envelope"></i></a></li>
                     <li><a title="LinkedIn" href="https://www.linkedin.com/in/camilaraccioni"><i class="fa fa-linkedin"></i></a></li>
